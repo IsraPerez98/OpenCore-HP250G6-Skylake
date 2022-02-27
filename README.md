@@ -1,0 +1,1 @@
+# Opencore-HP250G6-Skylake
