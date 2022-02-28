@@ -45,6 +45,7 @@ As of now I think the EFI is almost complete except for a few things.
 | AirportItlwm           | 2.1.0       | Fixes Intel Wifi                         |
 | AppleALC               | 1.6.9       | Fixes onboard audio                      |
 | BlueToolFixup          | 2.6.1       | Fixes Bluetooth on Monterey              |
+| BrightnessKeys         | 1.0.2       | Fixes brightness keys                    |
 | IntelBluetoothFirmware | 2.1.0       | Fixes Intel Bluetooth                    |
 | Lilu                   | 1.6.0       | Kext patcher                             |
 | RealtekRTL8111         | 2.4.2       | Ethernet                                 |
@@ -81,7 +82,7 @@ As of now I think the EFI is almost complete except for a few things.
 - [x] HDMI video (Audio through HDMI does not work)
 - [x] DRM content playback (Netflix)
 - [x] Linux dualboot using OpenCore
-- [x] Display brightness configuration
+- [x] Brightness config + brightness keys
 
 
 ### Working, sort of
@@ -90,7 +91,6 @@ As of now I think the EFI is almost complete except for a few things.
 
 ### Not Working at the moment
 
-- [ ] Brightness keys
 - [ ] GPU acceleration with dedicated Radeon card (obviously)
 
 ### Not Tested
