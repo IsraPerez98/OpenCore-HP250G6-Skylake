@@ -3,7 +3,7 @@
 
 ### Built using [OpenCore 0.7.8](https://github.com/acidanthera/OpenCorePkg/releases)
 
-### **If you're going to use this EFI remember to generate your own SMBIOS Serials using [Install Guide - PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#platforminfo) using MacBookPro14,1**
+### **If you're going to use this EFI remember to generate your own SMBIOS Serials using [Install Guide - PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#platforminfo) with MacBookPro14,1**
 
 This repo contains information for getting macOS 12 Monterey working on a HP 250 G6 Skylake (i3-6006u) Laptop
 
