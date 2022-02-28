@@ -1,5 +1,5 @@
 # Hp 250 G6 (Skylake) OpenCore EFI [Monterey]
-![Hp Latpop Snapshot](https://github.com//IsraPerez98/OpenCore-HP250G6-Skylake/blob/master/Docs/HP-Image.png)
+![Hp Latpop Snapshot](https://raw.githubusercontent.com/IsraPerez98/OpenCore-HP250G6-Skylake/main/Docs/HP-Image.png)
 
 ### Built using [OpenCore 0.7.8](https://github.com/acidanthera/OpenCorePkg/releases)
 
