@@ -72,6 +72,7 @@ As of now I think the EFI is almost complete except for a few things.
 - [x] Wifi
 - [x] Bluetooth
 - [x] Keyboard
+- [x] Trackpad with gestures and physical buttons
 - [x] Audio
 - [x] Ethernet
 - [x] iCloud services - iMessage, FaceTime, AppStore
@@ -83,11 +84,6 @@ As of now I think the EFI is almost complete except for a few things.
 - [x] DRM content playback (Netflix)
 - [x] Linux dualboot using OpenCore
 - [x] Brightness config + brightness keys
-
-
-### Working, sort of
-
-- [ ] Trackpad physical buttons don't work.
 
 ### Not Working at the moment
 
