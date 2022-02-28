@@ -54,6 +54,8 @@ As of now I think the EFI is almost complete except for a few things.
 | SMCSuperIO             | 1.2.8       | Monitor fan speed, not working           |
 | VirtualSMC             | 1.2.8       | SMC chip emulation                       |
 | VoodooPS2Controller    | 2.2.7       | Enable keyboard/Trackpad                 |
+| VoodooRMI              | 1.3.4       | Trackpad fixes                           |
+| VoodooSMBus            | 2.2         | Trackpad fixes                           |
 | WhateverGreen          | 1.5.7       | Graphics                                 |
 
 ## ACPI patches
