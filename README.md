@@ -1,5 +1,5 @@
 # Hp 250 G6 (Skylake) OpenCore EFI [Monterey]
-![Hp Latpop Snapshot](https://github.com//IsraPerez98/Opencore-HP250G6-Skylake/blob/master/Docs/HP-Image.png)
+![Hp Latpop Snapshot](https://github.com//IsraPerez98/OpenCore-HP250G6-Skylake/blob/master/Docs/HP-Image.png)
 
 ### Built using [OpenCore 0.7.8](https://github.com/acidanthera/OpenCorePkg/releases)
 
@@ -42,21 +42,18 @@ As of now I think the EFI is almost complete except for a few things.
 
 | Kext                   | Version     | Remark                                   |
 | ---------------------- | ----------- | ---------------------------------------- |
+| AirportItlwm           | 2.1.0       | Fixes Intel Wifi                         |
 | AppleALC               | 1.6.9       | Fixes onboard audio                      |
 | BlueToolFixup          | 2.6.1       | Fixes Bluetooth on Monterey              |
 | IntelBluetoothFirmware | 2.1.0       | Fixes Intel Bluetooth                    |
-| itlwm                  | 2.1.0       | Fixes Intel Wifi                         |
 | Lilu                   | 1.6.0       | Kext patcher                             |
+| RealtekRTL8111         | 2.4.2       | Ethernet                                 |
 | SMCBatteryManager      | 1.2.8       | Battery indicator                        |
 | SMCProcessor           | 1.2.8       | CPU temp monitoring                      |
 | SMCSuperIO             | 1.2.8       | Monitor fan speed, not working           |
-| USBInjectAll           | 1.2.8       | Monitor fan speed, not working           |
 | VirtualSMC             | 1.2.8       | SMC chip emulation                       |
-| VoodooRMI              | 1.3.4       | Trackpad driver                          |
-| VoodooSMBUS            | 2.2         | SMBUS driver                             |
-| VoodooPS2Controller    | 2.2.7       | Enable keyboard                          |
+| VoodooPS2Controller    | 2.2.7       | Enable keyboard/Trackpad                 |
 | WhateverGreen          | 1.5.7       | Graphics                                 |
-| RealtekRTL8111         | 2.4.2       | Ethernet                                 |
 
 ## ACPI patches
 
@@ -84,6 +81,7 @@ As of now I think the EFI is almost complete except for a few things.
 - [x] HDMI video (Audio through HDMI does not work)
 - [x] DRM content playback (Netflix)
 - [x] Linux dualboot using OpenCore
+- [x] Display brightness configuration
 
 
 ### Working, sort of
@@ -92,7 +90,7 @@ As of now I think the EFI is almost complete except for a few things.
 
 ### Not Working at the moment
 
-- [ ] Display brightness configuration
+- [ ] Brightness keys
 - [ ] GPU acceleration with dedicated Radeon card (obviously)
 
 ### Not Tested
@@ -110,3 +108,4 @@ As of now I think the EFI is almost complete except for a few things.
 
 - [Acidanthera](https://github.com/acidanthera)
 - [Dortania OC guide](https://dortania.github.io/OpenCore-Install-Guide/)
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg/)
