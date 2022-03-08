@@ -1,7 +1,7 @@
 # Hp 250 G6 (Skylake) OpenCore EFI [Monterey]
 ![Hp Latpop Snapshot](https://raw.githubusercontent.com/IsraPerez98/OpenCore-HP250G6-Skylake/main/Docs/HP-Image.png)
 
-### Built using [OpenCore 0.7.8](https://github.com/acidanthera/OpenCorePkg/releases)
+### Built using [OpenCore 0.7.9](https://github.com/acidanthera/OpenCorePkg/releases)
 
 ### **If you're going to use this EFI remember to generate your own SMBIOS Serials using [Install Guide - PlatformInfo](https://dortania.github.io/OpenCore-Install-Guide/config.plist/skylake.html#platforminfo) with MacBookPro14,1**
 
@@ -21,7 +21,7 @@ As of now I think the EFI is almost complete except for a few things.
 | Component     | Version      |
 | ------------- | ------------ |
 | macOS version | 12.2.1 |
-| OpenCore      | 0.7.8        |
+| OpenCore      | 0.7.9        |
 
 ## Hardware Info
 
