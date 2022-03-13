@@ -63,9 +63,10 @@ As of now I think the EFI is almost complete except for a few things.
 
 | Patch                 | Remark                         |
 | --------------------- | ------------------------------ |
+| SSDT-EC-USBX-LAPTOP   | USBX patch                     |
+| SSDT-GPRW             | Instant Wake patch             |
 | SSDT-PLUG-DRTNIA      | x86 plugin injection fix       |
 | SSDT-PNLF             | Backlight fix                  |
-| SSDT-EC-USBX-LAPTOP   | USBX patch                     |
 | SSDT-XOSI             | Trackpad fix                   |
 ## Status
 
